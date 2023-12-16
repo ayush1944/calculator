@@ -26,11 +26,11 @@ body{
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.8);
     background: rgb(0, 0, 0, 0.40);
 }
-/* .element{
+.element{
     display: flex;
     flex-direction: row;
     margin: auto;
-} */
+}
 input{
     width: 310px;
     padding: 16px;
