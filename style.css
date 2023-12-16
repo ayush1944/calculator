@@ -16,10 +16,10 @@ body{
     /* background-color: #859abb; */
 }
 .calculator{
-    /* display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; */
+    align-items: center;
     padding: 20px;
     border: 2px solid black;
     border-radius: 16px;
@@ -27,11 +27,11 @@ body{
     background: rgb(0, 0, 0, 0.40);
     
 }
-.element{
+/* .element{
     display: flex;
     flex-direction: row;
     margin: auto;
-}
+} */
 input{
     grid-column: span 4;
     width: 310px;
