@@ -16,10 +16,10 @@ body{
     /* background-color: #859abb; */
 }
 .calculator{
-    /* display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; */
+    align-items: center;
     padding: 20px;
     border: 2px solid black;
     border-radius: 16px;
@@ -81,4 +81,4 @@ button:hover{
     align-items: center;
     margin: auto;
     }
-} */
+}
