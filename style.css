@@ -13,6 +13,8 @@ body{
     align-items: center;
     background: url(Images/fiosjofopi.jpg);
     background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
     /* background-color: #859abb; */
 }
 .calculator{
@@ -25,13 +27,16 @@ body{
     border-radius: 16px;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.8);
     background: rgb(0, 0, 0, 0.40);
+    max-height: 90vh;
 }
 .element{
     display: flex;
     flex-direction: row;
-    margin: auto;
 }
 input{
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
     width: 310px;
     padding: 16px;
     margin: 10px;
@@ -43,6 +48,7 @@ input{
     border: solid 2px rgba(0, 0, 0, 0.3);
     border-radius: 16px;
     text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+    /* overflow: scroll; */
 }
 input::placeholder{
     color: #fff;
